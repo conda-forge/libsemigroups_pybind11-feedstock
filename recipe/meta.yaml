@@ -1,5 +1,5 @@
 {% set name = "libsemigroups_pybind11" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.5" %}
 
 package:
   name: libsemigroups_pybind11
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/libsemigroups/libsemigroups_pybind11/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: a51878de09443d9e632a0c502aaa47b314a54ee793731c20f1874896890dfecb
+  sha256: c1d931d128439f851cb731cce6e55d2240aa9cf8a1a92599d48b83d287f8b882
 
 build:
   number: 0
@@ -44,7 +44,7 @@ about:
   license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
-  summary: 'Python package for using the C++ library libsemigroups via pybind11'
+  summary: Python package for using the C++ library libsemigroups via pybind11
   dev_url: https://github.com/libsemigroups/libsemigroups_pybind11
 
 extra:
