@@ -32,12 +32,8 @@ requirements:
 test:
   imports:
     - libsemigroups_pybind11
-  requires:
-    - pytest=6.2.4
-  source_files:
-    - tests/
   commands:
-    - pytest -vv tests/test_*.py
+    - pip check
 
 about:
   home: https://libsemigroups.github.io/
