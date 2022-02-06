@@ -16,7 +16,9 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - pkg-config
   host:
     - python
     - pip
@@ -24,6 +26,7 @@ requirements:
     - pkgconfig >=0.29.2
     - packaging >=20.4
     - pybind11 >=2.6
+    - eigen
   run:
     - python
     - libsemigroups >=2.0.2
