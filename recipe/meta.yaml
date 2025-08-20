@@ -40,7 +40,6 @@ test:
     - pip check
     - pytest
   requires:
-    - python 3.9
     - pip
     - pytest
   source_files:
