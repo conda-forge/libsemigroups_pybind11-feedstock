@@ -1,5 +1,5 @@
 {% set name = "libsemigroups_pybind11" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/libsemigroups_pybind11-{{ version }}.tar.gz
-  sha256: 56d191d791b92654e5193266e0a68dcc0ff62ff3e8b0fec13b4f9f9265317789
+  sha256: d8ab9951eda5b9e298974a1ccd3b5c415a89cd3d772e7c9e2cb41ca049d2f0db
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
