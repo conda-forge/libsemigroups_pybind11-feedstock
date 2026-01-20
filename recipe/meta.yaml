@@ -25,7 +25,7 @@ requirements:
   host:
     - setuptools >=64
     - setuptools-scm >=8
-    - libsemigroups >=3.3.0
+    - libsemigroups >=3.4.0
     - packaging
     - pip
     - pkgconfig
